@@ -26,7 +26,6 @@ int busca(Link T[], int m, int k) {
     return 0; 
 }
 
-// Função de inserção
 void insere(Link T[], int m, int k) {
 //ver se ja existe
     if (busca(T, m, k)) {
